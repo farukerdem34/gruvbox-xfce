@@ -8,6 +8,8 @@
 
 **XFCE Panel ---> ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml**
 
+**Settings Manager -> Apperance -> Style -> Check 'Set matching Xfwm4 theme if there is one.'**
+
 ```bash
 gtk-update-icon-cache ~/.icons/{Your-New-Icon-Theme-Folder}
 ```
