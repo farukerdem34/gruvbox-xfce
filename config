@@ -1,0 +1,31 @@
+[global_config]
+  handle_size = 5
+  case_sensitive = False
+[keybindings]
+  resize_up = ""
+  resize_down = ""
+  resize_left = ""
+  resize_right = ""
+  move_tab_right = ""
+  move_tab_left = ""
+  next_tab = <Primary><Shift>Right
+  prev_tab = <Primary><Shift>Left
+[profiles]
+  [[default]]
+    background_color = "#ffffff"
+    background_darkness = 1.0
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_theme_colors = True
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
